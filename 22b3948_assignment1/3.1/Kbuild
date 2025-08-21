@@ -1,0 +1,5 @@
+EXTRA_CFLAGS = -Wall -g
+
+obj-m += get_pgfaults.o
+
+

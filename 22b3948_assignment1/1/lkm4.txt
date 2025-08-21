@@ -1,0 +1,4 @@
+Notes on LKM4 Module:
+    - We can observe that as stride is increasing the Physical Memory Size is decreasing and this is because lower number of addresses are being accessed (or touched) and hence physical pages are being provided based on the demand
+    - Meanwhile increasing number of pages increases physical memory size as more number of addresses are being accessed
+    - For a fixed number of pages, the virtual memory allocated is the same for all strides but physical memory is being provided based on demand!!!
